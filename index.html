@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Timefulness</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/png" href="./svg/logo.png">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <script data-ad-client="ca-pub-3814121314419418" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+  <body>
+    <header><div class="logo"><img src="./svg/logo.png" alt=""></div><nav><h3>TIMEFULNESS</h3></nav></header>
+    <div class="app">
+
+      <div class="vid-container">
+        <video loop>
+          <source src="./video/forest.mp4" type="video/mp4"></source>
+        </video>
+      </div>
+
+      <div class="time-select">
+        <button data-time="180">3:00</button>
+        <button data-time="300">5:00</button>
+        <button data-time="600">10:00</button>
+        <button data-time="1200">20:00</button>
+      </div>
+      <div class="player-container">
+        <audio class="song">
+          <source src="./sounds/rain.mp3" />
+        </audio>
+        <img src="./svg/play.svg" alt="play" class="play" />
+        <svg
+          class="track-outline"
+          width="45vw"
+          height="45vh"
+          viewBox="0 0 453 453"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="226.5"
+            cy="226.5"
+            r="216.5"
+            stroke="white"
+            stroke-width="20"
+          />
+        </svg>
+        <svg
+          class="moving-outline"
+          width="45vw"
+          height="45vh"
+          viewBox="0 0 453 453"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="226.5"
+            cy="226.5"
+            r="216.5"
+            stroke="lightgreen"
+            stroke-width="20"
+          />
+        </svg>
+        <h3 class="time-display">0:00</h3>
+      </div>
+      <div class="sound-picker">
+        <button data-sound="./sounds/rain.mp3" data-video="./video/raining.mp4">
+          <img src="./svg/cloud.svg" alt="" />
+        </button>
+        <button data-sound="./sounds/beach.mp3" data-video="./video/wave.mp4">
+          <img src="./svg/waves.svg" alt="" />
+        </button>
+        <button data-sound="./sounds/mute.mp3" data-video="./video/forest.mp4">
+          <img src="./svg/mute.svg" alt="" />
+        </button>
+        <button data-sound="./sounds/guiada.mp3" data-video="./video/meditar.mp4">
+          <img src="./svg/meditate.svg" alt="" />
+        </button>
+        <audio src="./sounds/alarm.mp3" class="alarm"></audio>
+      </div>
+      
+    </div>
+    <footer>
+      <h3>&copy; 2020 Ibán López </h3>
+      <div class="social">
+        <a href="http://www.facebook.com/newinked" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.twitter.com/iminked" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="http://www.instagram.com/_inked" target="_blank" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.linkedin.com/in/ibanlopezdelgado" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </footer>
+<!-- POPUP DE REGISTRO CON JS -->
+<div class="bg-modal">
+  <div class="modal-content">
+    <div class="close" id="cerrar">
+      +
+    </div>
+    <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=12&l=ez&f=ifr&linkID=c452796599c8f07ce2b441951f419fb2&t=blitzcloud-21&tracking_id=blitzcloud-21" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+  </div>
+</div>
+    <script src="./app.js"></script>
+  </body>
+</html>
